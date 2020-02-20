@@ -16,6 +16,7 @@ body {
 .container {
   background-color: #242333;
   color: #ddd;
+  min-width: 400px;
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -193,7 +194,7 @@ p.text span {
 
 /* BUY NOW */
 
-.buy-btn {
+.book-btn {
   border: none;
   background-color: #45b756;
   color: #ddd;
@@ -204,11 +205,11 @@ p.text span {
   text-transform: capitalize;
 }
 
-.buy-btn:hover {
+.book-btn:hover {
   background-color: #267c33;
   cursor: pointer;
 }
 
-.buy-btn:focus {
+.book-btn:focus {
   outline: none;
 }

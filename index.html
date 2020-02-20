@@ -18,11 +18,13 @@
       <!-- MOVIE CONTAINER -->
       <div class="movie-container">
         <select id="movie">
-          <option value="0">Select a movie</option>
-          <option value="1">Avengers: Engame</option>
-          <option value="2">Joker</option>
-          <option value="3">Once Upon a Time in Hollywood</option>
-          <option value="4">The Irishman</option>
+          <option value="">Select a Movie</option>
+          <option value="Avengers: Endgame">Avengers: Endgame</option>
+          <option value="Joker">Joker</option>
+          <option value="Once Upon a Time in Hollywood"
+            >Once Upon a Time in Hollywood</option
+          >
+          <option value="The Irishman">The Irishman</option>
         </select>
       </div>
 
@@ -69,8 +71,28 @@
           <div class="seat"></div>
           <div class="seat"></div>
           <div class="seat"></div>
-          <div class="seat occupied"></div>
-          <div class="seat occupied"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
           <div class="seat"></div>
           <div class="seat"></div>
           <div class="seat"></div>
@@ -100,28 +122,8 @@
           <div class="seat"></div>
           <div class="seat"></div>
           <div class="seat"></div>
-          <div class="seat occupied"></div>
-          <div class="seat occupied"></div>
           <div class="seat"></div>
           <div class="seat"></div>
-        </div>
-        <div class="row">
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat occupied"></div>
-          <div class="seat occupied"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-        </div>
-        <div class="row">
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat"></div>
-          <div class="seat occupied"></div>
-          <div class="seat occupied"></div>
           <div class="seat"></div>
           <div class="seat"></div>
         </div>
@@ -129,15 +131,15 @@
 
       <!-- TEXT -->
       <p class="text">
-        Movie: <span id="movie-name">/</span>
+        Movie: <span id="movie-name"></span>
         <br />
         You have selected <span id="count">0</span> seats for a price of
         <span id="total">0</span> €
       </p>
 
-      <!-- BUY NOW -->
-      <button class="buy-btn">
-        Buy now
+      <!-- BOOK NOW -->
+      <button class="book-btn">
+        Book now
       </button>
     </div>
 

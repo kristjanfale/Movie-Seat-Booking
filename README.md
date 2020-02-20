@@ -5,6 +5,7 @@ Display movie choices and seats in a theater to select from in order to purchase
 ## Project Specifications
 
 - Display UI with movie select, screen, seats, legend & seat info
+- To select seats, user must first select a movie
 - User can select/deselect seats
 - User can not select occupied seats
 - Number of seats and price will update
